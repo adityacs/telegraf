@@ -5,6 +5,7 @@
 - [jolokia2](./plugins/inputs/jolokia2/README.md) - Thanks to @dylanmei
 - [nginx_plus](./plugins/inputs/nginx_plus/README.md) - Thanks to @mplonka & @poblahblahblah
 - [smart](./plugins/inputs/smart/README.md) - Thanks to @rickard-von-essen
+- [teamspeak](./plugins/inputs/teamspeak/README.md) - Thanks to @p4ddy1
 - [wavefront](./plugins/outputs/wavefront/README.md) - Thanks to @puckpuck
 
 ### Release Notes
@@ -49,6 +50,8 @@
 - [#3365](https://github.com/influxdata/telegraf/pull/3365): Gather concurrently from snmp agents.
 - [#3333](https://github.com/influxdata/telegraf/issues/3333): Perform DNS lookup before ping and report result.
 - [#3398](https://github.com/influxdata/telegraf/issues/3398): Add instance name option to varnish plugin.
+- [#3406](https://github.com/influxdata/telegraf/pull/3406):  Add support for SSL settings to ElasticSearch output plugin.
+- [#3315](https://github.com/influxdata/telegraf/pull/3315): Add Teamspeak 3 input plugin.
 
 ### Bugfixes
 
@@ -56,6 +59,10 @@
 - [#3258](https://github.com/influxdata/telegraf/issues/3258): Unlock Statsd when stopping to prevent deadlock.
 - [#3319](https://github.com/influxdata/telegraf/issues/3319): Fix cloudwatch output requires unneeded permissions.
 - [#3351](https://github.com/influxdata/telegraf/issues/3351): Fix prometheus passthrough for existing value types.
+
+## v1.4.4 [unreleased]
+
+- [#3401](https://github.com/influxdata/telegraf/pull/3401): Use schema specified in mqtt_consumer input.
 
 ## v1.4.3 [2017-10-25]
 
